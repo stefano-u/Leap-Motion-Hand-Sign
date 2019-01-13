@@ -13,5 +13,16 @@ Technology is rapidly evolving, with real-time verbal translation on its way. Us
 # How We Built It
 Interpretr. was produced using the Java programming language and the Leap Motion API. These two technologies allowed our team to effectively use the Leap Motion Controller to create our prototype sign language interpreter. Additionally, Interpretr. uses the FreeTTS API to give aural feedback to the user when they successfully sign a specific phrase or word.
 
+# How To Use It
+1) Install a Java IDE such as Eclipse or NetBeans
+2) Download this project and import it into your workspace within the IDE
+3) Execute the project from the Main.java class
+4) Plug in a Leap Motion Controller via USB (make sure the drivers are correctly installed)
+5) Execute the project and run the GUI
+5) As of this time, only three specific sign languages are recognized:
+  - Hello (all fingers up)
+  - I love you (thumb, index finger and pinky finger up)
+  - I understand (only index finger up)
+
 # Creators
 Stefano Gregor Unlayao, Rafael Flora, Jeffrey Jaca & Michael Marc
