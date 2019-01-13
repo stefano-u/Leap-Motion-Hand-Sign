@@ -13,5 +13,5 @@ Technology is rapidly evolving, with real-time verbal translation on its way. Us
 # How We Built It
 Interpretr. was produced using the Java programming language and the Leap Motion API. These two technologies allowed our team to effectively use the Leap Motion Controller to create our prototype sign language interpreter. Additionally, Interpretr. uses the FreeTTS API to give aural feedback to the user when they successfully sign a specific phrase or word.
 
-# Authors
+# Creators
 Stefano Gregor Unlayao, Rafael Flora, Jeffrey Jaca & Michael Marc
