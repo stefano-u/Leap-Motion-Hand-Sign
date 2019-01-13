@@ -20,9 +20,9 @@ Interpretr. was produced using the Java programming language and the Leap Motion
 4) Plug in a Leap Motion Controller via USB (make sure the drivers are correctly installed)
 5) Execute the project and run the GUI
 6) As of this time, only three specific sign languages are recognized:
-  - Hello (all fingers up)
-  - I love you (thumb, index finger and pinky finger up)
-  - I understand (only index finger up)
+  - "Hello" (all fingers up)
+  - "I love you" (thumb, index finger and pinky finger up)
+  - "I understand" (only index finger up)
 
 # Creators
 Stefano Gregor Unlayao, Rafael Flora, Jeffrey Jaca & Michael Marc
