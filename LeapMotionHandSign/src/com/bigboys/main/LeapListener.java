@@ -63,12 +63,9 @@ public class LeapListener extends Listener{
         //System.out.println(indexGood + ", " + middleGood + ", " + pinkyGood + ", " + ringGood + ", " + thumbGood);
         
         if (indexGood && middleGood && pinkyGood && ringGood && thumbGood) {
+            NewJFrame.jLabel2.setText("Success!");
             System.out.println("I LOVE YOU is triggered");  
             controller.removeListener(this);
-        }
-        
-        
-                
-        
+        }        
     }
 }

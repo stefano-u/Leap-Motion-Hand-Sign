@@ -8,10 +8,14 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
+        NewJFrame frame = new NewJFrame();
+        frame.setVisible(true);
+        
         Controller controller = new Controller();
         LeapListener listener = new LeapListener();
         
         controller.addListener(listener);
+        
         
         System.out.println("Using hand signs, please do \"I LOVE YOU\"");
         try {
@@ -19,6 +23,7 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
+                
          
         controller.removeListener(listener);
     }
