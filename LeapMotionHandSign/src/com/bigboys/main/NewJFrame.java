@@ -30,41 +30,56 @@ public class NewJFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        signLabel = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        img = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setAutoRequestFocus(false);
+        setBackground(new java.awt.Color(255, 171, 64));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Using sign language, please do \"I LOVE YOU\"");
+        signLabel.setFont(new java.awt.Font("Open Sans", 1, 48)); // NOI18N
+        signLabel.setForeground(new java.awt.Color(255, 255, 255));
+        signLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        signLabel.setText("I love you");
 
-        jLabel2.setFont(new java.awt.Font("Impact", 0, 48)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 51, 51));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setFont(new java.awt.Font("Open Sans", 1, 48)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setText("Begin Communicating");
+
+        img.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/i-love-you-gesture.png"))); // NOI18N
+        img.setToolTipText("");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap(77, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(69, 69, 69)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 978, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(156, 156, 156)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 815, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(83, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 1072, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(59, 59, 59))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(img)
+                        .addGap(503, 503, 503))))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(389, 389, 389)
+                .addComponent(signLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(67, 67, 67)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(57, 57, 57)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(194, Short.MAX_VALUE))
+                .addGap(63, 63, 63)
+                .addComponent(jLabel3)
+                .addGap(97, 97, 97)
+                .addComponent(img)
+                .addGap(37, 37, 37)
+                .addComponent(signLabel)
+                .addContainerGap(140, Short.MAX_VALUE))
         );
 
         pack();
@@ -86,7 +101,8 @@ public class NewJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    public static javax.swing.JLabel jLabel2;
+    public static javax.swing.JLabel img;
+    private javax.swing.JLabel jLabel3;
+    public static javax.swing.JLabel signLabel;
     // End of variables declaration//GEN-END:variables
 }
